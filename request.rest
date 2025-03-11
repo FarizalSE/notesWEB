@@ -1,0 +1,18 @@
+GET https://34.66.49.235:3000/notes
+###
+POST http://localhost:5000/add-notes
+Content-Type: application/json
+
+{
+    "judul": "Jadwal Kuliah",
+    "catatan": "Pada hari minggu saya akan mandi"
+}
+
+###
+POST http://localhost:5000/add-notes
+Content-Type: application/json
+
+{
+    "judul": "Jadwal Pertemuan",
+    "catatan": "Selasa besok saya akan bertemu dengan koruptor"
+}
